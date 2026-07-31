@@ -1,8 +1,16 @@
 aid: myheritage
 name: MyHeritage
-description: 'MyHeritage is a company surfaced as a portfolio company of accel, bessemer-venture-partners,
-  index-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This
-  profile is a lead awaiting the enrichment pipeline.'
+description: 'MyHeritage is an online genealogy and consumer DNA platform that lets
+  families build and explore their family trees, take at-home DNA tests for ancestry
+  and genetic ethnicity, and search more than 40 billion historical records for genealogy
+  research. Founded in 2003 and headquartered in Israel, the company also offers photo
+  tools such as colorization, enhancement and the AI-based Deep Nostalgia animation
+  feature, alongside DNA matching that connects relatives worldwide. MyHeritage previously
+  operated a public FamilyGraph developer API, but that program has been retired: the
+  developers.myheritage.com and developer.myheritage.com hosts now 301-redirect to
+  the company homepage and familygraph.com no longer resolves to documentation, so there
+  is no current public API surface to catalog. This profile therefore captures the
+  company identity and its published web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/myheritage/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +20,30 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cf.mhcache.com/FP/Assets/Images/Social/mh_logo_350x350.png
 tags:
 - Company
 - Consumer
+- Genealogy
+- DNA
+- Family Tree
+- Ancestry
+- Historical Records
+- Photos
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.myheritage.com/
+- type: Blog
+  url: https://blog.myheritage.com/
+- type: Support
+  url: https://www.myheritage.com/help-center
+- type: Pricing
+  url: https://www.myheritage.com/pricing
+- type: SignUp
+  url: https://www.myheritage.com/login
+- type: PrivacyPolicy
+  url: https://www.myheritage.com/privacy-policy
+- type: TermsOfService
+  url: https://www.myheritage.com/terms-and-conditions
+- type: GitHubOrganization
+  url: https://github.com/myheritage
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
