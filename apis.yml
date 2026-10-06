@@ -44,7 +44,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 image: https://cf.mhcache.com/FP/Assets/Images/Social/mh_logo_350x350.png
 tags:
 - Company
@@ -62,6 +62,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://blog.myheritage.com/feed/
+  type: BlogRSS
 - type: Website
   url: https://www.myheritage.com/
 - type: Blog
