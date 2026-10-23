@@ -5,7 +5,7 @@
       "source": "https://blog.myheritage.com/feed/",
       "feed_url": "https://blog.myheritage.com/feed/",
       "title": "",
-      "saved": 2,
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -16,6 +16,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://blog.myheritage.com/home/feed/",
+      "feed_url": "https://blog.myheritage.com/home/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.myheritage.com/",
       "feed_url": "https://www.myheritage.com/",
       "title": "",
@@ -23,6 +30,6 @@
       "method": "none"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 10,
+  "fetched": "2026-10-17T14:53:57Z"
 }
